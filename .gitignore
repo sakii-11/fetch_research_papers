@@ -1,0 +1,7 @@
+# Ignore build distribution files
+dist/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
