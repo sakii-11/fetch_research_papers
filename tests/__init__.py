@@ -1,0 +1,1 @@
+from .test_papers_fetcher import test_parse_paper_details

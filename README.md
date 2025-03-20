@@ -76,7 +76,7 @@ poetry run python -m unittest discover tests
 This module has been published to Test PyPI for testing purposes. You can install it directly from Test PyPI using:
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ get-papers-list-sakshi
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ get-papers-list-pubmed
 ```
 
 ---

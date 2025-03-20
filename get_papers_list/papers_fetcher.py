@@ -6,8 +6,8 @@ import xml.etree.ElementTree as ET
 
 
 # Constants
-PUBMED_API_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-PUBMED_FETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+PUBMED_API_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"  #for searching the PubMed database
+PUBMED_FETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi" #for fetching detailed records based on PubMed IDs
 
 def fetch_papers(query: str, max_results: int = 100) -> List[Dict]:
     """
